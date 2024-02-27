@@ -17,7 +17,7 @@ on: 16/02/24
 #
 # First we will tackle imports and ingest the data:
 #%%
-from gw_detect_power import DetectionPowerCounterFactual
+from komanawa.gw_detect_power import DetectionPowerCounterFactual
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

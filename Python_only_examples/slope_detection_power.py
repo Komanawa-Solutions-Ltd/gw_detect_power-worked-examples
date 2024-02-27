@@ -11,7 +11,7 @@ on: 16/02/24
 
 # First we need to import some necessary libraries
 #%%
-from gw_detect_power import DetectionPowerSlope, AutoDetectionPowerSlope
+from komanawa.gw_detect_power import DetectionPowerSlope, AutoDetectionPowerSlope
 import numpy as np
 import matplotlib.pyplot as plt
 #%% md
@@ -88,7 +88,7 @@ plt.show()
 
 # The challenge here is that the initial increase in concentration obscures the later decrease. This means that a monotonic test (such as Mann Kendall) will not be able to detect the decrease in concentration as easily. For instance even in the example below where there is no noise a Mann Kendall test will not be able to detect the decrease in concentration.
 #%%
-from kendall_stats import MannKendall
+from komanawa.kendall_stats import MannKendall
 
 mk = MannKendall(example_y)
 mk.plot_data()
@@ -110,7 +110,7 @@ plt.show()
 
 # A better solution is to use a multi-part Mann Kendall test.  For this test the user specifies a number of segements and the slope that they would expect in each segment. The test then runs a Mann Kendall test on each possible segment and the best breakpoint is used. This is implemented in the 'n-section-mann-kendall' option, the change is considered detected if the p-value of the Mann Kendall test is less than the set min_p_value.
 #%%
-from kendall_stats import MultiPartKendall
+from komanawa.kendall_stats import MultiPartKendall
 
 mpmk = MultiPartKendall(noisy_y, nparts=2, expect_part=(1, -1))
 mpmk.plot_data_from_breakpoints(mpmk.get_maxz_breakpoints())

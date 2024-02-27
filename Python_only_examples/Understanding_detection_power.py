@@ -52,7 +52,7 @@ plt.show()
 ## Visualising Slope detection power
 
 # As an example let's look further at the time series data above. What happens to the detection power across a range of error values and sampling frequencies?
-from gw_detect_power import DetectionPowerSlope
+from komanawa.gw_detect_power import DetectionPowerSlope
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -80,7 +80,7 @@ plt.show()
 ## Visualising Counterfactual detection power
 
 #Similarly
-from gw_detect_power import DetectionPowerCounterFactual
+from komanawa.gw_detect_power import DetectionPowerCounterFactual
 import numpy as np
 import matplotlib.pyplot as plt
 

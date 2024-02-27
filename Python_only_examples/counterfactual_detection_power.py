@@ -16,7 +16,7 @@ on: 16/02/24
 # Both the Paired t-test and the Wilcoxon signed-rank test are implemented.  These are both paired sample comparisons, with the Paired t-test assuming parametric data, while the Wilcoxon works on non-parametric data.  Running detection power calculations with both of these tests is relatively easy.
 
 #%%
-from gw_detect_power import DetectionPowerCounterFactual
+from komanawa.gw_detect_power import DetectionPowerCounterFactual
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -61,7 +61,7 @@ plt.show()
 # * exponential fraction = 0.7
 # * a 2-year delay in sampling
 #%%
-from gw_detect_power import AutoDetectionPowerCounterFactual
+from komanawa.gw_detect_power import AutoDetectionPowerCounterFactual
 
 dp_auto = AutoDetectionPowerCounterFactual(significance_mode='wilcoxon-signed-rank-test',
                                            nsims=1000,

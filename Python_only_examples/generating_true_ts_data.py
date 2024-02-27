@@ -12,7 +12,7 @@ on: 16/02/24
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from gw_detect_power import DetectionPowerSlope
+from komanawa.gw_detect_power import DetectionPowerSlope
 from scipy.interpolate import interp1d
 #%% md
 ## Bespoke time series data

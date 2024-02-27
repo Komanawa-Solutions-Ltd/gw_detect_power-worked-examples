@@ -10,7 +10,7 @@ on: 16/02/24
 # Before we get too far let's import the required packages and generate some data to work with.
 #%%
 import numpy as np
-from gw_detect_power import AutoDetectionPowerSlope, AutoDetectionPowerCounterFactual
+from komanawa.gw_detect_power import AutoDetectionPowerSlope, AutoDetectionPowerCounterFactual
 #%% md
 ## Testing run time (Slope)
 

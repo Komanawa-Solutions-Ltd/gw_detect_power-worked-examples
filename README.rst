@@ -1,12 +1,12 @@
 gw_detect_power worked examples
 ==================================
 
-This repository contains worked examples for the `gw_detect_power
-<https://github.com/Komanawa-Solutions-Ltd/gw_detect_power>`_ package.  These examples were developed using the `Jupyter Notebook <https://jupyter.org/>`_ environment and funded by the New Zealand Our Land and Water National Science Challenge.
+This repository contains worked examples for the `komanawa-gw-detect-power
+<https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power>`_ package.  These examples were developed using the `Jupyter Notebook <https://jupyter.org/>`_ environment and funded by the New Zealand Our Land and Water National Science Challenge.
 
 .. note::
 
-    The examples provided require version v.2.0.0 or later of gw_detect_power
+    The examples provided require version v.2.0.0 or later of komanawa-gw-detect-power
 
 Installation
 ==============
@@ -16,12 +16,14 @@ These examples are meant to be viewed on github as well as being run locally usi
 Python Environment
 =====================
 
-The python environment for these examples is identical for the full installation of `gw_detect_power <https://github.com/Komanawa-Solutions-Ltd/gw_detect_power#installation>`_.
+The python environment for these examples is identical for the full installation of `komanawa-gw-detect-power <https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power#installation>`_.
+
+.. todo make a 1 line copy install setup
 
 Overview
 ==========
 
-The goal of these examples is to demonstrate how to calculate the detection power of monitoring points and is it applicable to both groundwater and surface water. The `Our Land and Water National Science Challenge: Monitoring Freshwater Improvement Actions Project <https://ourlandandwater.nz/project/monitoring-freshwater-improvement-actions/>`_ has signficantly more discussion on the topic of monitoring design and the use of detection power.  For more information we recommend, `Water Quality Monitoring for Management of Diffuse Nitrate Pollution <https://github.com/Komanawa-Solutions-Ltd/gw_detect_power/blob/main/supporting_documents/Water_quality_monitoring_for_management_of_diffuse_nitrate_pollution_Final.pdf>`_. This document provides guidance on the design of water quality monitoring programs for the management of diffuse nitrate pollution.  It includes a section on statistical power and the use of the detection power calculator as well as other factors that should be considered when designing a water quality monitoring program.
+The goal of these examples is to demonstrate how to calculate the detection power of monitoring points and is it applicable to both groundwater and surface water. The `Our Land and Water National Science Challenge: Monitoring Freshwater Improvement Actions Project <https://ourlandandwater.nz/project/monitoring-freshwater-improvement-actions/>`_ has signficantly more discussion on the topic of monitoring design and the use of detection power.  For more information we recommend, `Water Quality Monitoring for Management of Diffuse Nitrate Pollution <https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power/blob/main/supporting_documents/Water_quality_monitoring_for_management_of_diffuse_nitrate_pollution_Final.pdf>`_. This document provides guidance on the design of water quality monitoring programs for the management of diffuse nitrate pollution.  It includes a section on statistical power and the use of the detection power calculator as well as other factors that should be considered when designing a water quality monitoring program.
 
 
 

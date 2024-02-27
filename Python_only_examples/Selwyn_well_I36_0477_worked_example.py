@@ -7,13 +7,13 @@ on: 16/02/24
 
 # Before we get too far, lets import the necessary libraries and set up the notebook
 # %%
-from gw_detect_power import DetectionPowerCounterFactual, AutoDetectionPowerCounterFactual
+from komanawa.gw_detect_power import DetectionPowerCounterFactual, AutoDetectionPowerCounterFactual
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-from kendall_stats import MannKendall
+from komanawa.kendall_stats import MannKendall
 import datetime
-from gw_age_tools import check_age_inputs, predict_historical_source_conc, predict_future_conc_bepm
+from komanawa.gw_age_tools import check_age_inputs, predict_historical_source_conc, predict_future_conc_bepm
 from scipy.interpolate import interp1d
 
 # %% md
