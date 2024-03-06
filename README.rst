@@ -47,7 +47,7 @@ The following Jupyter Notebooks are provided in this repository (we recommend th
 #. `Generating_true_ts_data <./generating_true_ts_data.ipynb>`_: a brief introduction to generating time series data for the purposes of testing the detection power calculator.
 #. `Slope_detection_power <./slope_detection_power.ipynb>`_: a worked example of how to calculate the detection power for a linear trend in a time series.
 #. `Counterfactual_detection_power <./counterfactual_detection_power.ipynb>`_: a worked example of how to calculate the detection power for a counterfactual trend in a time series.
-#. `Whakauru_Stream_worked_example <./Whakauru_Stream_Worked_example.ipynb>`_: a full worked example of evaluating the detection power of the Whakauru Stream.
+#. `Whakauru_Stream_worked_example <./Whakauru_Stream_worked_example.ipynb>`_: a full worked example of evaluating the detection power of the Whakauru Stream.
 #. `Selwyn_well_I36_0477_worked_example <./Selwyn_well_I36_0477_worked_example.ipynb>`_: a full worked example of evaluating the detection power of the Selwyn well I36/0477.
 #. `Counterfactual_from_models <./counterfactual_from_models.ipynb>`_: a full worked example of evaluating the detection power for a site for synthetic modelled scenario output.
 #. `Increasing_run_efficiency <./increasing_run_efficency.ipynb>`_: a worked example of how to increase the run efficency of the detection power calculator.
