@@ -44,6 +44,7 @@ Jupyter Notebook Index
 The following Jupyter Notebooks are provided in this repository (we recommend this workflow):
 
 #. `Understanding_detection_power <./Understanding_detection_power.ipynb>`_: a brief introduction to detection power and how it can be used to design monitoring programs.
+#. `Let's talk noise <./lets_talk_noise.ipynb>`_: a brief introduction to the concept of noise and how it can be estimated.
 #. `Generating_true_ts_data <./generating_true_ts_data.ipynb>`_: a brief introduction to generating time series data for the purposes of testing the detection power calculator.
 #. `Slope_detection_power <./slope_detection_power.ipynb>`_: a worked example of how to calculate the detection power for a linear trend in a time series.
 #. `Counterfactual_detection_power <./counterfactual_detection_power.ipynb>`_: a worked example of how to calculate the detection power for a counterfactual trend in a time series.
