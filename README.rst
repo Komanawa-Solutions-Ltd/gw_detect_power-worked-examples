@@ -18,7 +18,18 @@ Python Environment
 
 The python environment for these examples is identical for the full installation of `komanawa-gw-detect-power <https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power#installation>`_.
 
-.. todo make a 1 line copy install setup
+Conda/pip installation
+------------------------
+
+..code-block:: bash
+
+    # create a new environment
+    conda create --name gwdetect python
+    conda activate gwdetect
+    # install the required packages
+    pip install komanawa-gw-detect-power
+    pip install notebook
+
 
 Overview
 ==========
