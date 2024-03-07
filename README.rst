@@ -21,7 +21,7 @@ The python environment for these examples is identical for the full installation
 Conda/pip installation
 ------------------------
 
-..code-block:: bash
+.. code-block:: bash
 
     # create a new environment
     conda create --name gwdetect python
