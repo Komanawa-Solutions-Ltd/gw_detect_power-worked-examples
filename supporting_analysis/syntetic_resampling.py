@@ -163,7 +163,7 @@ if __name__ == '__main__':
     axs[3].plot(ndata.index, new_predicted_full, label='Sine fit: $\\sigma$ = {:.3f}'.format(np.std(new_residual)), color='black', ls='--')
 
     for i, ax in enumerate(axs):
-        if i == 0:
+        if i != 0:
             ax.plot(ndata.index, ndata['predicted_seasonal'], label='"True data"', color='black', ls=':', alpha=0.5)
         ax.legend()
 
