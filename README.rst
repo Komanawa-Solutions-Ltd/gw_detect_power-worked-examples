@@ -55,8 +55,8 @@ Basic Detection Methodology
 #. Create a True receptor time series.
 #. Resample the True receptor time series to your sampling frequncy and duration
 #. Run Detection power Calculator (many times e.g. 1000, 10000)
-   #. Create a noise realisation and add it to the True time series
-   #. Run your statisitcal test
+    #. Create a noise realisation and add it to the True time series
+    #. Run your statisitcal test
 #. Detection power is the number of statistical tests with p<threshold / number of tests.
 
 Jupyter Notebook Index
