@@ -50,6 +50,7 @@ In this repo we have a couple key definitions:
 
 
 Basic Detection Methodology
+------------------------------
 
 #. Estimate noise.
 #. Create a True receptor time series.
