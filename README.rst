@@ -49,6 +49,17 @@ In this repo we have a couple key definitions:
 * **True Receptor Concentration**: The true receptor concentration is the concentration at the receptor if there was no noise.
 
 
+Basic Detection Methodology
+------------------------------
+
+#. Estimate noise.
+#. Create a True receptor time series.
+#. Resample the True receptor time series to your sampling frequncy and duration
+#. Run Detection power Calculator (many times e.g. 1000, 10000)
+    #. Create a noise realisation and add it to the True time series
+    #. Run your statisitcal test
+#. Detection power is the number of statistical tests with p<threshold / number of tests.
+
 Jupyter Notebook Index
 ------------------------
 
