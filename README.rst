@@ -2,7 +2,7 @@ gw_detect_power worked examples
 ==================================
 
 This repository contains worked examples for the `komanawa-gw-detect-power
-<https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power>`_ package.  These examples were developed using the `Jupyter Notebook <https://jupyter.org/>`_ environment and funded by the New Zealand Our Land and Water National Science Challenge.
+<https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power>`_ package.  These examples were developed using the `Jupyter Notebook <https://jupyter.org/>`_ environment and funded by the New Zealand Our Land and Water National Science Challenge.
 
 .. note::
 
@@ -16,7 +16,7 @@ These examples are meant to be viewed on github as well as being run locally usi
 Python Environment
 =====================
 
-The python environment for these examples is identical for the full installation of `komanawa-gw-detect-power <https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power#installation>`_.
+The python environment for these examples is identical for the full installation of `komanawa-gw-detect-power <https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power/#installation>`_.
 
 Conda/pip installation
 ------------------------
@@ -34,7 +34,7 @@ Conda/pip installation
 Overview
 ==========
 
-The goal of these examples is to demonstrate how to calculate the detection power of monitoring points and is it applicable to both groundwater and surface water. The `Our Land and Water National Science Challenge: Monitoring Freshwater Improvement Actions Project <https://ourlandandwater.nz/project/monitoring-freshwater-improvement-actions/>`_ has signficantly more discussion on the topic of monitoring design and the use of detection power.  For more information we recommend, `Water Quality Monitoring for Management of Diffuse Nitrate Pollution <https://github.com/Komanawa-Solutions-Ltd/komanawa-gw-detect-power/blob/main/supporting_documents/Water_quality_monitoring_for_management_of_diffuse_nitrate_pollution_Final.pdf>`_. This document provides guidance on the design of water quality monitoring programs for the management of diffuse nitrate pollution.  It includes a section on statistical power and the use of the detection power calculator as well as other factors that should be considered when designing a water quality monitoring program.
+The goal of these examples is to demonstrate how to calculate the detection power of monitoring points and is it applicable to both groundwater and surface water. The `Our Land and Water National Science Challenge: Monitoring Freshwater Improvement Actions Project <https://www.monitoringfreshwater.co.nz>`_ has signficantly more discussion on the topic of monitoring design and the use of detection power.  For more information we recommend, `Water Quality Monitoring for Management of Diffuse Nitrate Pollution <https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power/_static/Water_quality_monitoring_for_management_of_diffuse_nitrate_pollution_Final.pdf>`_. This document provides guidance on the design of water quality monitoring programs for the management of diffuse nitrate pollution.  It includes a section on statistical power and the use of the detection power calculator as well as other factors that should be considered when designing a water quality monitoring program.
 
 
 
@@ -63,3 +63,14 @@ The following Jupyter Notebooks are provided in this repository (we recommend th
 #. `Selwyn_well_I36_0477_worked_example <./Selwyn_well_I36_0477_worked_example.ipynb>`_: a full worked example of evaluating the detection power of the Selwyn well I36/0477.
 #. `Counterfactual_from_models <./counterfactual_from_models.ipynb>`_: a full worked example of evaluating the detection power for a site for synthetic modelled scenario output.
 #. `Increasing_run_efficiency <./increasing_run_efficency.ipynb>`_: a worked example of how to increase the run efficency of the detection power calculator.
+
+Video Tutorials
+----------------
+
+As part of the Our Land and Water National Science Challenge, we held a workshop to accompany these worked examples. Videos can be found on the `Komanawa Solutions Youtube Channel <https://www.youtube.com/channel/UCS-oF82WbkOXLdZVumzy56g>`_ and are listed below.  To access the full webinar recording please see: `Komanawa Groundwater Detection Power Calculator <https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power/>`_.
+
+#. `Which tool to use and when <https://youtu.be/s4Na3z6Gyh0>`_
+#. `Making "true" receptor concentration time series <https://youtu.be/yvlqJMQqbcU>`_
+#. `Whakauru Stream Worked Example <https://youtu.be/PXS0eMV9K9c>`_
+#. `Counterfactual from Models <https://youtu.be/Bod_EEIMIr8>`_
+
