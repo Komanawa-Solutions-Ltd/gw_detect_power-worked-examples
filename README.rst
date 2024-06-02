@@ -78,7 +78,7 @@ The following Jupyter Notebooks are provided in this repository (we recommend th
 Video Tutorials
 ----------------
 
-As part of the Our Land and Water National Science Challenge, we held a workshop to accompany these worked examples. Videos can be found on the `Komanawa Solutions Youtube Channel <https://www.youtube.com/channel/UCS-oF82WbkOXLdZVumzy56g>`_ and are listed below.  To access the full webinar recording please see: `Komanawa Groundwater Detection Power Calculator <https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power/>`_.
+As part of the Our Land and Water National Science Challenge, we held a workshop to accompany these worked examples. Videos can be found on the `Kо̄manawa Solutions Youtube Channel <https://www.youtube.com/channel/UCS-oF82WbkOXLdZVumzy56g>`_ and are listed below.  To access the full webinar recording please see: `Kо̄manawa Groundwater Detection Power Calculator <https://komanawa-solutions-ltd.github.io/komanawa-gw-detect-power/>`_.
 
 #. `Which tool to use and when <https://youtu.be/s4Na3z6Gyh0>`_
 #. `Making "true" receptor concentration time series <https://youtu.be/yvlqJMQqbcU>`_
